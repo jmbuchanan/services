@@ -8,5 +8,5 @@ spring:
         git:
           uri: https://github.com/jmbuchanan/config-repo/
           searchPaths: licensingservice, organizationservice
-          username: jmbuchanan1992
+          username: jmbuchanan
           password: ${GITHUB_PASSWORD}
