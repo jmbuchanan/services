@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        encrypt.enabled: false
+        git:
+          uri: https://github.com/jmbuchanan/config-repo/
+          searchPaths: licensingservice, organizationservice
+          username: jmbuchanan1992
+          password: cheerwine1

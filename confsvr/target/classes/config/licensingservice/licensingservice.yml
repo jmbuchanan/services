@@ -1,0 +1,5 @@
+tracer.property: "I AM THE DEFAULT"
+spring.datasource.url: "jdbc:postgresql://localhost:5432/eagle_eye_local"
+spring.datasource.username: "postgres"
+spring.datasource.password: "postgresql"
+
